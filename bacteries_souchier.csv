@@ -1,41 +1,79 @@
 Type,Nom_Bacterie,Lieu_Souchier,Repiquage_Necessaire
-GRAM+,Staphylococcus aureus,A-1,Oui
-GRAM+,Staphylococcus epidermidis,A-2,Oui
-GRAM+,Streptococcus pneumoniae,A-3,Oui
-GRAM+,Streptococcus pyogenes,A-4,Oui
-GRAM+,Enterococcus faecalis,A-5,Non
-GRAM+,Enterococcus faecium,A-6,Non
-GRAM+,Bacillus anthracis,B-1,Oui
-GRAM+,Bacillus cereus,B-2,Oui
-GRAM+,Bacillus subtilis,B-3,Non
-GRAM+,Listeria monocytogenes,B-4,Oui
-GRAM+,Corynebacterium diphtheriae,B-5,Oui
-GRAM+,Clostridium tetani,B-6,Oui
-GRAM+,Clostridium botulinum,B-7,Oui
-GRAM+,Clostridium perfringens,B-8,Oui
-GRAM-,Neisseria meningitidis,C-1,Oui
-GRAM-,Neisseria gonorrhoeae,C-2,Oui
-GRAM-,Escherichia coli,D-1,Oui
-GRAM-,Salmonella typhimurium,D-2,Oui
-GRAM-,Shigella sonnei,D-3,Oui
-GRAM-,Klebsiella pneumoniae,D-4,Oui
-GRAM-,Proteus mirabilis,D-5,Non
-GRAM-,Enterobacter cloacae,D-6,Non
-GRAM-,Serratia marcescens,D-7,Non
-GRAM-,Yersinia enterocolitica,D-8,Oui
-GRAM-,Pseudomonas aeruginosa,E-1,Oui
-GRAM-,Acinetobacter baumannii,E-2,Oui
-GRAM-,Legionella pneumophila,E-3,Oui
-GRAM-,Haemophilus influenzae,E-4,Non
-GRAM-,Campylobacter jejuni,E-5,Oui
-Levure,Saccharomyces cerevisiae,F-1,Non
-Levure,Candida albicans,F-2,Oui
-Levure,Candida glabrata,F-3,Oui
-Levure,Cryptococcus neoformans,F-4,Oui
-Levure,Pichia pastoris,F-5,Non
-Levure,Debaryomyces hansenii,F-6,Non
-Champignon,Aspergillus fumigatus,G-1,Oui
-Champignon,Aspergillus niger,G-2,Non
-Champignon,Penicillium chrysogenum,G-3,Non
-Champignon,Fusarium oxysporum,G-4,Oui
-Champignon,Trichoderma reesei,G-5,Non
+Gram -,Klebsiella pneumoniae,A1,oui
+Gram -,Klebsiella pneumoniae,A2,oui
+Gram -,Klebsiella pneumoniae,A3,oui
+Gram -,Klebsiella pneumoniae rhinoscleromatis,A4,non
+Gram -,Klebsiella oxytoca,A5,oui
+Gram -,Klebsiella pneumoniae,A6,non
+Gram -,Klebsiella,A7,oui
+Gram -,Klebsiella oxytoca,A8,oui
+Gram -,Klebsiella oxytoca,A9,oui
+Gram -,Klebsiella oxytoca,A10,non
+Gram -,Klebsiella,A11,oui
+Gram -,Klebsiella pneumoniae,A12,oui
+Gram -,Klebsiella pneumoniae,A13,oui
+Gram -,Klebsiella,A14,oui
+Gram -,klebsiella...,A15,non
+Gram -,Klebsiella pneumoniae,A16,non
+Gram -,Klebsiella pneumoniae,A17,oui
+Gram -,Klebsiella oxytoca,A18,oui
+Gram -,Klebsiella ...,A19,oui
+Gram -,Klebsiella pneumoniae,A20,non
+Gram -,Klebsiella,B21,oui
+Gram -,Klebsiella pneumoniae,B22,oui
+Gram -,Klebsiella oxytoca,B23,oui
+Gram -,Klebsiella pneumoniae,B24,non
+Gram -,Klebsiella pneumoniae,B1,oui
+Gram -,Klebsiella oxytoca,B2,non
+Gram -,Klebsiella pneumoniae,B3,non
+Gram -,klebsiella...,B4,non
+Gram -,Proteus inconnu,B5,oui
+Gram -,Proteus vulgaris,B6,non
+Gram -,Proteus vulgaris,B7,non
+Gram -,Proteus vulgaris,B8,oui
+Gram -,Proteus vulgaris,B9,oui
+Gram -,Provida,B10,non
+Gram -,Limacella cellulolytica,B11,oui
+Gram -,Providencia...,B12,oui
+Gram -,Providia,B13,non
+Gram -,Providencia...,B14,oui
+Gram -,providencia...,B15,non
+Gram -,Vibrio fisheri,B16,oui
+Gram -,Vibrio fisheri,C17,oui
+Gram -,Vibrio fisheri,C18,oui
+Gram -,vibrio,C19,non
+Gram +,Staph aureus,C20,oui
+Gram +,Staph aureus,C21,non
+Gram +,Staph aureus,C22,oui
+Gram +,Staph aureus,C23,oui
+Gram +,Staph carnosus,C24,oui
+Gram +,Staph carnosus,C1,non
+Gram +,Staph epidermis,C2,non
+Gram +,Staph epidermis,C3,oui
+Gram +,Staph epidermis,C4,non
+Gram -,Hafnia alvei,C5,oui
+Gram -,Hafnia alvei,C6,non
+Gram +,Bacille anti fongique,C7,oui
+Gram +,Bacille anti fongique,C8,non
+Gram +,Streptomycette marron,C9,oui
+Gram +,Streptomycette Bleu3,C10,non
+Gram +,Streptomycette bleu 2,C11,oui
+Gram +,Streptomycette jaune,C12,oui
+Gram +,Streptomycette marron,D13,oui
+Gram +,Streptomycette,D14,oui
+Gram +,Streptomycette,D15,oui
+Gram +,Streptomycette,D16,oui
+Gram +,Streptomycette blanche,D17,oui
+Gram +,Streptomycette bleu,D18,oui
+Gram +,Streptomycette gris,D19,oui
+Gram +,Streptomycette blanche,D20,oui
+Gram +,Streptomycette cyan,D21,oui
+Gram +,Streptomycette marron,D22,oui
+Gram +,Streptomycette bleu,D23,oui
+Gram +,Streptomycette marron,D24,oui
+Gram +,Streptomycette marron,D1,non
+Gram +,Streptomycette bleu F,D2,non
+Gram +,Streptomycette cyan,D3,non
+Gram +,Streptomycette bleu,D4,non
+Gram +,Streptomycette bleu,D5,non
+Gram +,Streptomycette bleu,D6,non
